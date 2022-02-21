@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          text("TO DO LIST", const TextStyle(fontSize: 22)),
+          text("TODO LIST", const TextStyle(fontSize: 22)),
           const SizedBox(height: 10),
           Image.asset(
             KAssets.appLogo,
